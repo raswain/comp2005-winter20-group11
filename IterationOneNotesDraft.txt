@@ -1,0 +1,51 @@
+Vision Document:
+Introduction
+Problem Statement 
+saving space, materials and saving game state
+Stakeholders and Key Interests
+Users and User Level Goals
+Summary of System Features - "The system shall do/The system shall allow"
+Project Risks
+
+Data Dictionary:
+Set of unique words used during the project and their definitions
+
+Primary Actors and Goals:
+All primary actors identified with a comprehensive list of goals identified for each
+
+Brief Use Case Descriptions:
+"Descriptions succinctly capture the key points of each use case in one or two simple paragraphs, including the actors and key steps of the main success scenario"
+
+
+
+
+Use Case Description 1: Set Up a Game
+-User starts game
+-System asks user to start a new game or resume a previous one
+-If user selects previous game the system loads that game with all the original data
+-If the user wants to start a new game the old games data will be destroyed 
+-The following will  
+-The System asks the player how many players will be playing
+-The prompt will continue until a correct input is given
+-User selects how many players will play
+-The System uses this input and asks the player to provide names, player type (cpu/human) and 
+User provides system details about players
+-System retrieves details and displays options for a board design and diffculty
+-User selects what kind of board design and difficulty they want
+-System retrieves this information and creates the game
+
+
+Use Case Description 2: Take a Turn
+-Board/System reveals which Tile/Robot Pair will be used this turn
+-System waits for a any player to give their guess about the amount of turns
+-System starts timer 
+-If the timer ends without another player entering a better move count the player who made the first move count moves
+-The Guessing Player moves their robot and if they suceed in the set amount of moves they win the turn
+-If someone else has a lower move guess within the time allotted they will be allowed to move their robot
+-If user fails to achieve the set amount of moves they do not win the round and other players can make a move count guess
+-If this user achieves this lower move count they win the turn if no player can get a lower move count 
+
+
+
+
+
